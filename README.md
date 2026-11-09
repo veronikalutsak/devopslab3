@@ -1,9 +1,11 @@
-3. Опис API
+# DevOps Lab 3
 
-Архітектура: Client → API Gateway (REST, GET /hello) → Lambda (Python 3.12) → S3 (data/greeting.json)
-
-Параметр	Значення
-Метод і шлях	GET /hello
-Автентифікація	немає
-Параметри запиту	немає
-Content-Type відповіді	application/json
+## 📌 1. Посилання на API
+```
+http://localhost:4566/restapis/d8fe26590e/prod/_user_request_/hello
+```
+### Client ──► API Gateway (REST, GET /hello) ──► Lambda (Python 3.12) ──► S3 (data/greeting.json)
+```
+Метод і шлях - GET /hello
+Content-Type відповіді,application/json
+```
