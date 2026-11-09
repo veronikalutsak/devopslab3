@@ -1,6 +1,6 @@
 # DevOps Lab 3
 
-## 📌 1. Посилання на API
+## Посилання на API
 ```
 http://localhost:4566/restapis/d8fe26590e/prod/_user_request_/hello
 ```
